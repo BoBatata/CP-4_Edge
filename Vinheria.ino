@@ -39,7 +39,6 @@ void loop() {
     float h = dht.readHumidity();
     float t = dht.readTemperature();
     int potValue = analogRead(POT_PIN); // Leitura do Potenciômetro
-    //float speed = map(potValue, 0, 4095, 0, 322); // Mapeamento do valor do potenciômetro para simular a velocidade de um carro da Fórmula E (0 a 322 km/h)
  
     if (isnan(h) || isnan(t)) {
       Serial.println("Falha ao ler o sensor DHT22!");

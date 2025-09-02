@@ -1,4 +1,8 @@
 // Nicoals Tetsuo Kimura - RM 565377
+// Pedro Santos - RM 564188
+// Pedro Cunha Coutinho - RM 564188
+// Breno Henrique Bortoloti Santos - RM 564188
+// Thomaz Vasconcelos Mendes - RM 564188
 
 #include <WiFi.h>
 #include <HTTPClient.h>
